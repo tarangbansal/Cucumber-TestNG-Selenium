@@ -1,0 +1,165 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-07T06:53:29.285Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23403000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testrunner.hooks.Hooks.beforeNoBrowser(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 256000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testrunner.hooks.Hooks.initateBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Single test",
+        "description": "",
+        "id": "add-new-item-to-todo-list;single-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 351000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "testrunner.hooks.Hooks.closeTheBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11751461000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on home Page with chrome,87.0,WIN10 and 1024x768",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 26
+                },
+                {
+                  "val": "87.0",
+                  "offset": 33
+                },
+                {
+                  "val": "WIN10",
+                  "offset": 38
+                },
+                {
+                  "val": "1024x768",
+                  "offset": 48
+                }
+              ],
+              "location": "automation.stepDefinition.ToDoStepDefinition.userIsOnHomePageWithBrowserVersionOsAndResolution(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1550293000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "select First Item",
+            "match": {
+              "location": "automation.stepDefinition.ToDoStepDefinition.select_first_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 809498000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "select second item",
+            "match": {
+              "location": "automation.stepDefinition.ToDoStepDefinition.select_second_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2911138000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "add new item",
+            "match": {
+              "location": "automation.stepDefinition.ToDoStepDefinition.add_new_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 846445000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify added item",
+            "match": {
+              "location": "automation.stepDefinition.ToDoStepDefinition.verify_added_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1449882000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Update the result",
+            "match": {
+              "location": "automation.stepDefinition.ToDoStepDefinition.update_result()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 684314000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "automation.stepDefinition.ToDoStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@nobrowser"
+          },
+          {
+            "name": "@single"
+          }
+        ]
+      }
+    ],
+    "name": "Add new item to ToDO list",
+    "description": "",
+    "id": "add-new-item-to-todo-list",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/automation/features/todo.feature",
+    "tags": []
+  }
+]
